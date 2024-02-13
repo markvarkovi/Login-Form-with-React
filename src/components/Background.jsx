@@ -19,15 +19,15 @@ function DynamicBackground() {
     <>
       {timeOfDay === "morning" ? (
         <div className="morning-bg">
-          <h2>Good Morning!</h2>
+          <h2 className="greeting">Good Morning!</h2>
         </div>
       ) : timeOfDay === "afternoon" ? (
         <div className="afternoon-bg">
-            <h2>Good Afternoon!</h2>
+            <h2 className="greeting">Good Afternoon!</h2>
         </div>
       ) : (
         <div className="evening-bg">
-            <h2>Good Evening!</h2>
+            <h2 className="greeting">Good Evening!</h2>
         </div>
       )}
     </>

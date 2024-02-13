@@ -1,12 +1,23 @@
 import "./Modal.css";
+import { useState } from "react";
+import ForgetModal from "./ForgetModal"
 
 function Modal() {
+
+const [isForget, setIsForget] = useState(false)
+ 
+    function handleForget() {
+        setIsForget(true)
+    }
+
+
+
   return (
-    <>
-      <form>
+    <>{isForget ? <ForgetModal/> : (<form>
         <div className="container">
           <h3>Login</h3>
           <div>
+          <div className="separator-line"></div>
             <label>
               <b>Username</b>
             </label>
@@ -25,15 +36,15 @@ function Modal() {
           <br />
           <br />
           <button type="submit">Login</button>
-          <span className="psw">
-            <b>Forgot Password?</b>{" "}
+          <span className="psw" onClick={handleForget}>
+            <b>Forgot Password?</b>
           </span>
-          <br />
+          <div className="separator-line2"></div>
           <br />
           <span> Dont have an account?</span>
           <button className="register">Register</button>
         </div>
-      </form>
+      </form>)}
     </>
   );
 }

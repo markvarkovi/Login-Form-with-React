@@ -1,12 +1,12 @@
-h2 {
+.greeting {
     position: fixed;
     top: 5%;
     left: 5%;
     padding: 10px;
-    border-left: 5px ridge black;
-    background-color: rgba(206, 204, 201, 0.884);
+    background-color: rgba(206, 204, 201, 0.685);
     color: rgb(66, 62, 62);
-    border-radius: 20px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .morning-bg, .afternoon-bg, .evening-bg {

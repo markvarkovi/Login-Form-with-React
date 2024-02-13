@@ -1,0 +1,56 @@
+.forget-container {
+    color: rgb(66, 62, 62);
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%); /* Centering the box horizontally */
+    width: 25%;
+    min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+    height: auto; /* Adjust height based on content */
+    padding: 30px 25px 25px;
+    background-color: rgba(206, 204, 201, 0.884);
+    border-radius: 10px;
+    border-left: 6px ridge black;
+    border-bottom: 6px ridge black;
+    border-top: 3px ridge black;
+    border-right: 3px ridge black;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  
+  .reset-text {
+    margin: 10px;
+    font-size: large;
+    position:fixed;
+    top: 1%;
+    left: 16%;
+    color: rgb(66, 62, 62);
+  }
+  
+  .forget-container span {
+    display: block; /* Ensures it takes its own line */
+    color: #666;
+    margin: 20px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  .forget-container input {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 20px;
+  }
+  
+  .forget-container div {
+    color: #007bff;
+    cursor: pointer;
+    text-align: center; /* Centers the text within the div */
+    margin: 32px;
+  }
+  
+  .forget-container div:last-child:hover {
+    text-decoration: underline;
+  }
+  
