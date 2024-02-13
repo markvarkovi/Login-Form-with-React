@@ -1,0 +1,23 @@
+h2 {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    padding: 10px;
+    border-left: 5px ridge black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(206, 204, 201);
+    color: rgb(88, 82, 82);
+    border-radius: 20px;
+}
+
+.morning-bg {
+    background: url("https://wallpapercave.com/wp/wp10712591.jpg")
+}
+
+.afternoon-bg {
+    background: url("https://i.ibb.co/cwNRSHK/foliage-green-hills-during-sunset-evening-with-blue-cloudy-sky-background-hd-sunset-1.jpg");
+}
+
+.evening-bg {
+    background: url("https://i.pinimg.com/originals/58/d1/4c/58d14c0991cfc1ec8c003438e9fd162b.jpg") 
+}
