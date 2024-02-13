@@ -5,7 +5,7 @@ function DynamicBackground() {
   const [timeOfDay, setTimeOfDay] = useState("");
 
   useEffect(() => {
-    let hour = new Date().getHours();
+    let hour = new Date().getHours()
     if (hour >= 0 && hour < 12) {
       setTimeOfDay("morning");
     } else if (hour >= 12 && hour < 18) {

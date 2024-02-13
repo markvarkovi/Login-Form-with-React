@@ -5,19 +5,28 @@ h2 {
     padding: 10px;
     border-left: 5px ridge black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(206, 204, 201);
+    background-color: rgba(206, 204, 201, 0.603);
     color: rgb(88, 82, 82);
     border-radius: 20px;
 }
 
+.morning-bg, .afternoon-bg, .evening-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+
 .morning-bg {
-    background: url("https://wallpapercave.com/wp/wp10712591.jpg")
+    background-image: url("https://wallpapercave.com/wp/wp10712591.jpg")
 }
 
 .afternoon-bg {
-    background: url("https://i.ibb.co/cwNRSHK/foliage-green-hills-during-sunset-evening-with-blue-cloudy-sky-background-hd-sunset-1.jpg");
+    background-image: url("https://wallpaperbat.com/img/158678-summer-afternoon-farm-wallpaper.png");
 }
 
 .evening-bg {
-    background: url("https://i.pinimg.com/originals/58/d1/4c/58d14c0991cfc1ec8c003438e9fd162b.jpg") 
+    background-image: url("https://i.pinimg.com/originals/58/d1/4c/58d14c0991cfc1ec8c003438e9fd162b.jpg") 
 }
