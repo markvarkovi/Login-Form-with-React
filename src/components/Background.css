@@ -4,18 +4,19 @@ h2 {
     left: 5%;
     padding: 10px;
     border-left: 5px ridge black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(206, 204, 201, 0.603);
-    color: rgb(88, 82, 82);
+    background-color: rgba(206, 204, 201, 0.884);
+    color: rgb(66, 62, 62);
     border-radius: 20px;
 }
 
 .morning-bg, .afternoon-bg, .evening-bg {
+    display: flex;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    
 }
 
 

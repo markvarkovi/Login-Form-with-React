@@ -1,0 +1,49 @@
+.container {
+    color: rgb(66, 62, 62);
+    position: fixed;
+    top: 16%;
+    left: 40%;
+    width: 25%;
+    height: 60%;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    background-color: rgba(206, 204, 201, 0.884);
+    border-radius: 10px;
+    border-left: 6px ridge black;
+    border-bottom: 6px ridge black;
+    border-top: 3px ridge black;
+    border-right: 3px ridge black;
+}
+
+h3 {
+    margin: 10px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    top: -3%;
+    left: 25%;
+}
+
+label {
+    position: absolute;
+    left: 40%;
+}
+input {
+    position: absolute;
+    left: 23%;
+    border-radius: 5px;
+    margin: 10px;
+    height: 20px;
+}
+
+.psw:hover {
+    color: rgb(126, 117, 117);
+    transition: 0.3s ease-out;
+}
+
+
+
+
