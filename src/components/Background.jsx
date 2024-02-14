@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Background.css";
+import "./styles/Background.css";
 
 function DynamicBackground() {
   const [timeOfDay, setTimeOfDay] = useState("");

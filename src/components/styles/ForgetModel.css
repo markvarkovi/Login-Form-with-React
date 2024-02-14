@@ -6,7 +6,7 @@
     transform: translateX(-50%); /* Centering the box horizontally */
     width: 25%;
     min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
-    height: auto; /* Adjust height based on content */
+    height: 50%;
     padding: 30px 25px 25px;
     background-color: rgba(206, 204, 201, 0.884);
     border-radius: 10px;
@@ -36,21 +36,40 @@
   
   .forget-container input {
     position: absolute;
-    top: 30%;
+    top: 34.5%;
     left: 20%;
     border-radius: 5px;
     margin-bottom: 50px;
     height: 20px;
   }
+
+  .send-btn {
+    position: fixed;
+    top: 53%;
+    left: 33%;
+  }
   
-  .forget-container div {
+  .remember-text {
     color: #007bff;
     cursor: pointer;
-    text-align: center; /* Centers the text within the div */
-    margin: 32px;
+    margin: 10px;
+    width: 198px;
+    position: fixed;
+    top: 75%;
+    left: 16.5%;
   }
   
-  .forget-container div:last-child:hover {
+  .redirect {
+    position: fixed;
+    top: 88.5%;
+    left: 37%;
+    
+  }
+
+  .redirect:hover {
+    color: #007bff;
     text-decoration: underline;
   }
+
+
   

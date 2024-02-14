@@ -11,10 +11,6 @@
     padding-bottom: 0px;
     background-color: rgba(206, 204, 201, 0.884);
     border-radius: 5px;
-    /* border-left: 6px ridge black;
-    border-bottom: 6px ridge black;
-    border-top: 3px ridge black;
-    border-right: 3px ridge black; */
 }
 
 h3 {
@@ -35,7 +31,8 @@ label {
 input {
     position: absolute;
     left: 23%;
-    border-radius: 5px;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.144);
     margin: 10px;
     height: 20px;
 }
