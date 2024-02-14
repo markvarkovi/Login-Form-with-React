@@ -1,19 +1,15 @@
 .forget-container {
     color: rgb(66, 62, 62);
     position: fixed;
-    top: 25%;
-    left: 50%;
+    top: 22%;
+    left: 54%;
     transform: translateX(-50%); /* Centering the box horizontally */
     width: 25%;
     min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
     height: 50%;
     padding: 30px 25px 25px;
     background-color: rgba(206, 204, 201, 0.884);
-    border-radius: 10px;
-    border-left: 6px ridge black;
-    border-bottom: 6px ridge black;
-    border-top: 3px ridge black;
-    border-right: 3px ridge black;
+    border-radius: 5px;
     box-sizing: border-box; /* Ensures padding is included in the width */
   }
   

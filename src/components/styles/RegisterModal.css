@@ -1,0 +1,97 @@
+.register-container {
+  color: rgb(66, 62, 62);
+  position: fixed;
+  top: 11%;
+  left: 53%;
+  transform: translateX(-50%); /* Centering the box horizontally */
+  width: 25%;
+  min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+  height: 80%;
+  padding: 30px 25px 25px;
+  background-color: rgba(206, 204, 201, 0.884);
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+h1 {
+  position: fixed;
+  top: -1.5%;
+  left: 20.5%;
+  font-weight: 600;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+}
+
+.separator-line3 {
+  position: fixed;
+  margin-left: -0.5%;
+  top: 14%;
+  left: 5.8%;
+  width: 280px;
+  height: 1.3px;
+  background-color: grey;
+}
+
+.separator-line4 {
+  position: fixed;
+  margin-left: -0.5%;
+  top: 72.3%;
+  left: 5.8%;
+  width: 280px;
+  height: 1.3px;
+  background-color: grey;
+}
+
+.reg-form {
+  display: flex;
+}
+
+.label-email {
+  position: fixed;
+  top: 17%;
+  left: 23.8%;
+}
+
+.email-input {
+  position: fixed;
+  top: 20.5%;
+  left: 20%;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.label-username {
+  position: fixed;
+  top: 32%;
+  left: 24%;
+}
+
+.username-input {
+  position: fixed;
+  top: 35.5%;
+  left: 20%;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.label-password {
+  position: fixed;
+  left: 24%;
+  top: 46%;
+}
+
+.password-input {
+  position: fixed;
+  top: 49.5%;
+  left: 20%;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.reg-btn {
+  position: fixed;
+  top: 58.5%;
+  left: 31.5%;
+  border-radius: 5px;
+}

@@ -1,27 +1,32 @@
 import "./styles/Modal.css";
 import { useState } from "react";
 import ForgetModal from "./ForgetModal";
+import RegisterModal from "./RegisterModal";
 
 function Modal() {
   const [isForget, setIsForget] = useState(false);
+  const [isRegister, setIsRegister] = useState(false);
 
-  function handleForget(value) {
-    setIsForget(value);
+  function handleForget(bool) {
+    setIsForget(bool);
   }
 
-  console.log(isForget);
+  function handleRegister(bool) {
+    setIsRegister(bool)
+  }
 
+  
   return (
     <>
       {isForget ? (
         <ForgetModal active={(bool) => handleForget(bool)} />
-      ) : (
+      ) : isRegister ? (<RegisterModal active={(bool) => handleRegister(bool)}/>) : (
         <form>
           <div className="container">
             <h3>Login</h3>
             <div>
               <div className="separator-line"></div>
-              <label>
+              <label className="username-label">
                 <b>Username</b>
               </label>
               <br />
@@ -29,7 +34,7 @@ function Modal() {
               <br />
               <br />
 
-              <label>
+              <label className="password-label">
                 <b>Password</b>
               </label>
               <br />
@@ -44,8 +49,8 @@ function Modal() {
             </span>
             <div className="separator-line2"></div>
             <br />
-            <span> Dont have an account?</span>
-            <button className="register">Register</button>
+            <span className="reg-text"> Dont have an account?</span>
+            <button className="register" onClick={() => handleRegister(true)}>Register</button>
           </div>
         </form>
       )}
