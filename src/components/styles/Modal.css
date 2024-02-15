@@ -48,6 +48,7 @@ input {
 .psw:hover {
     color: rgb(126, 117, 117);
     transition: 0.3s ease-out;
+    cursor: pointer;
 }
 
 .separator-line {
@@ -72,7 +73,7 @@ input {
 
 .reg-text {
     position: fixed;
-    bottom: 21%
+    bottom: 21%;
 }
 .register {
     position: fixed;

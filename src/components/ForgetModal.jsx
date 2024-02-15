@@ -6,7 +6,7 @@ function ForgetModal({active}) {
         <>
         <div className="forget-container">
            <h2 className="reset-text">Reset your password</h2>
-           <input placeholder="Enter your email"/>
+           <input type="email" placeholder="Enter your email" required/>
            <button type="submit" className="send-btn">SEND</button>
         <span> We will send you an email to reset your password</span>
         <div className="remember-text"> Remember your password?</div>

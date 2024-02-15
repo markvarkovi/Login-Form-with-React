@@ -1,38 +1,62 @@
 .greeting {
-    position: fixed;
-    top: 5%;
-    left: 5%;
-    padding: 10px;
-    background-color: rgba(206, 204, 201, 0.685);
-    border: 2px solid rgba(0, 0, 0, 0.144);
-    color: rgb(66, 62, 62);
-    border-radius: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  padding: 10px;
+  background-color: rgba(206, 204, 201, 0.685);
+  border: 2px solid rgba(0, 0, 0, 0.144);
+  color: rgb(66, 62, 62);
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.morning-bg, .afternoon-bg, .evening-bg {
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    
+.morning-bg,
+.afternoon-bg,
+.evening-bg {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
-
 
 .morning-bg {
-    background-image: url("https://wallpapercave.com/wp/wp10712591.jpg")
+  background-image: url("https://wallpapercave.com/wp/wp10712591.jpg");
 }
 
 .afternoon-bg {
-    background-image: url("https://i.pinimg.com/originals/8c/af/05/8caf05fdf41402a4f850de4b57ecdb18.jpg");
+  background-image: url("https://i.pinimg.com/originals/8c/af/05/8caf05fdf41402a4f850de4b57ecdb18.jpg");
 }
 
 .evening-bg {
-    background-image: url("https://i.pinimg.com/originals/58/d1/4c/58d14c0991cfc1ec8c003438e9fd162b.jpg") 
+  background-image: url("https://i.pinimg.com/originals/58/d1/4c/58d14c0991cfc1ec8c003438e9fd162b.jpg");
 }
 
-.switch-time-panel {
-    background: none;
+.select-background {
+  display: flex;
+  position: fixed;
+  top: 7%;
+  right: 5%;
+  width: 20%;
+  height: 10%;
+  background-color: rgba(206, 204, 201, 0.685);
+  border: 2px solid rgba(0, 0, 0, 0.144);
+  color: rgb(66, 62, 62);
+  border-radius: 20px;
 }
+
+.select-background button:first-child {
+  background-color: rgba(206, 204, 201, 0.884);;
+}
+
+.select-background button {
+  border-radius: 20px;
+}
+
+.select-background button:last-child {
+  background-color: rgb(66, 62, 62);
+}
+
+
+

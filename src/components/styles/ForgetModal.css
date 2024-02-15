@@ -59,12 +59,12 @@
     position: fixed;
     top: 88.5%;
     left: 37%;
-    
   }
 
   .redirect:hover {
     color: #007bff;
     text-decoration: underline;
+    cursor: pointer;
   }
 
 
