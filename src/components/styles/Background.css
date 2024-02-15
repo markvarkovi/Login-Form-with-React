@@ -50,12 +50,20 @@
   background-color: rgba(206, 204, 201, 0.884);;
 }
 
+.select-background button:first-child:hover{
+  border-color: yellow;
+}
+
 .select-background button {
   border-radius: 20px;
 }
 
 .select-background button:last-child {
   background-color: rgb(66, 62, 62);
+}
+
+.select-background button:last-child:hover {
+  border-color: navy;
 }
 
 

@@ -95,3 +95,50 @@ h1 {
   left: 31.5%;
   border-radius: 5px;
 }
+
+.registered-box {
+  color: rgb(66, 62, 62);
+  position: fixed;
+  top: 25%;
+  left: 53%;
+  transform: translateX(-50%); /* Centering the box horizontally */
+  width: 40%;
+  min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+  height: 30%;
+  padding: 30px 25px 25px;
+  background-color: rgba(206, 204, 201, 0.884);
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.suc-reg-text {
+  position: fixed;
+  top: 1%;
+  left: 6.7%;
+  font-size: large;
+}
+
+.suc-reg-email-text {
+  position: fixed;
+  font-size: small;
+}
+
+.suc-reg-redirect {
+  position: fixed;
+  top: 60%;
+  left: 30%;
+}
+
+.border-line {
+  position: fixed;
+  top: 53.5%;
+  left: 50%;
+  transform: translateX(-50%); /* Centering the box horizontally */
+  width: 430px;
+  min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+  height: 0.5px;
+  background-color: transparent;
+  border:  rgb(66, 62, 62) 1px ridge;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
