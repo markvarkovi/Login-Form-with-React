@@ -5,11 +5,11 @@
   left: 53%;
   transform: translateX(-50%); /* Centering the box horizontally */
   width: 25%;
-  min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+  min-width: 18.75rem; /* Ensure it doesn't get too small on narrow screens */
   height: 80%;
-  padding: 30px 25px 25px;
+  padding: 1.875rem 1.563rem 1.563rem;
   background-color: rgba(206, 204, 201, 0.884);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
@@ -20,7 +20,7 @@ h1 {
   font-weight: 600;
   font-size: xx-large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
 }
 
 .separator-line3 {
@@ -28,8 +28,8 @@ h1 {
   margin-left: -0.5%;
   top: 14%;
   left: 5.8%;
-  width: 280px;
-  height: 1.3px;
+  width: 17.5rem;
+  height: 0.081rem;
   background-color: grey;
 }
 
@@ -38,8 +38,8 @@ h1 {
   margin-left: -0.5%;
   top: 72.3%;
   left: 5.8%;
-  width: 280px;
-  height: 1.3px;
+  width: 17.5rem;
+  height: 0.081rem;
   background-color: grey;
 }
 
@@ -57,8 +57,8 @@ h1 {
   position: fixed;
   top: 20.5%;
   left: 20%;
-  border-radius: 5px;
-  height: 20px;
+  border-radius: 0.313rem;
+  height: 1.25rem;
 }
 
 .label-username {
@@ -71,8 +71,8 @@ h1 {
   position: fixed;
   top: 35.5%;
   left: 20%;
-  border-radius: 5px;
-  height: 20px;
+  border-radius: 0.313rem;
+  height: 1.25rem;
 }
 
 .label-password {
@@ -85,15 +85,15 @@ h1 {
   position: fixed;
   top: 49.5%;
   left: 20%;
-  border-radius: 5px;
-  height: 20px;
+  border-radius: 0.313rem;
+  height: 1.25rem;
 }
 
 .reg-btn {
   position: fixed;
   top: 58.5%;
   left: 31.5%;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 .registered-box {
@@ -103,11 +103,11 @@ h1 {
   left: 53%;
   transform: translateX(-50%); /* Centering the box horizontally */
   width: 40%;
-  min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+  min-width: 18.75rem; /* Ensure it doesn't get too small on narrow screens */
   height: 30%;
-  padding: 30px 25px 25px;
+  padding: 1.875rem 1.563rem 1.563rem;
   background-color: rgba(206, 204, 201, 0.884);
-  border-radius: 5px;
+  border-radius: 0,313rem;
   box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
@@ -134,11 +134,11 @@ h1 {
   top: 53.5%;
   left: 50%;
   transform: translateX(-50%); /* Centering the box horizontally */
-  width: 430px;
-  min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
-  height: 0.5px;
+  width: 26.875rem;
+  min-width: 18.75rem; /* Ensure it doesn't get too small on narrow screens */
+  height: 0.031rem;
   background-color: transparent;
   border:  rgb(66, 62, 62) 1px ridge;
-  border-radius: 5px;
+  border-radius: 0.313;
   box-sizing: border-box; /* Ensures padding is included in the width */
 }

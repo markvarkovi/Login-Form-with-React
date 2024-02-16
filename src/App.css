@@ -1,0 +1,14 @@
+body, #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 48rem) {
+    body, #root {
+      padding: 0.625rem; /* Smaller padding on mobile devices */
+    }
+  }
+  

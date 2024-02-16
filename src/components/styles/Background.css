@@ -2,11 +2,11 @@
   position: fixed;
   top: 5%;
   left: 5%;
-  padding: 10px;
+  padding: 0.625rem;
   background-color: rgba(206, 204, 201, 0.685);
-  border: 2px solid rgba(0, 0, 0, 0.144);
+  border: 0.125rem solid rgba(0, 0, 0, 0.144);
   color: rgb(66, 62, 62);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -41,9 +41,9 @@
   width: 20%;
   height: 10%;
   background-color: rgba(206, 204, 201, 0.685);
-  border: 2px solid rgba(0, 0, 0, 0.144);
+  border: 0.125rem solid rgba(0, 0, 0, 0.144);
   color: rgb(66, 62, 62);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .select-background button:first-child {
@@ -55,7 +55,7 @@
 }
 
 .select-background button {
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .select-background button:last-child {

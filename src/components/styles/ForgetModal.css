@@ -5,16 +5,16 @@
     left: 54%;
     transform: translateX(-50%); /* Centering the box horizontally */
     width: 25%;
-    min-width: 300px; /* Ensure it doesn't get too small on narrow screens */
+    min-width: 18.75rem; /* Ensure it doesn't get too small on narrow screens */
     height: 50%;
-    padding: 30px 25px 25px;
+    padding: 1.875rem 1.563rem 1.563rem;
     background-color: rgba(206, 204, 201, 0.884);
-    border-radius: 5px;
+    border-radius: 0.313rem;
     box-sizing: border-box; /* Ensures padding is included in the width */
   }
   
   .reset-text {
-    margin: 10px;
+    margin: 0.625rem;
     font-size: large;
     position:fixed;
     top: 1%;
@@ -25,7 +25,7 @@
   .forget-container span {
     display: block; /* Ensures it takes its own line */
     color: #666;
-    margin: 20px;
+    margin: 1.25rem;
     text-align: center;
     line-height: 1.4;
   }
@@ -34,9 +34,9 @@
     position: absolute;
     top: 34.5%;
     left: 20%;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    height: 20px;
+    border-radius: 0.313rem;
+    margin-bottom: 3.125rem;
+    height: 1.25rem;
   }
 
   .send-btn {
@@ -48,8 +48,8 @@
   .remember-text {
     color: #007bff;
     cursor: pointer;
-    margin: 10px;
-    width: 198px;
+    margin: 0.625rem;
+    width: 12.375rem;
     position: fixed;
     top: 75%;
     left: 16.5%;

@@ -1,100 +1,81 @@
 .container {
-    color: rgb(66, 62, 62);
-    position: fixed;
-    top: 16%;
-    left: 40%;
-    width: 25%;
-    height: 65%;
-    padding-top: 30px;
-    padding-right: 0px;
-    padding-left: 25px;
-    padding-bottom: 0px;
-    background-color: rgba(206, 204, 201, 0.884);
-    border-radius: 5px;
+  color: rgb(66, 62, 62);
+  position: fixed;
+  top: 16%;
+  left: 40%;
+  width: 25%;
+  max-width: 31.25rem;
+  height: 65%;
+  padding-top: 1.875rem;
+  padding-left: 1.563rem;
+  background-color: rgba(206, 204, 201, 0.884);
+  border-radius: 0.3125rem;
 }
 
 h3 {
-    margin: 10px;
-    font-weight: 600;
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 1px;
-    position: relative;
-    top: -3%;
-    left: 25%;
+  margin: 0.625rem;
+  font-weight: 600;
+  font-size: 2.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 0.1rem;
+  position: relative;
+  top: -3%;
+  left: 25%;
 }
 
 .username-label {
-    position: fixed;
-    left: 47%;
-    top: 35%;
+  position: fixed;
+  left: 47%;
+  top: 35%;
 }
 
 .password-label {
-    position: fixed;
-    left: 47%;
-    top: 46.5%;
+  position: fixed;
+  left: 47%;
+  top: 46.5%;
 }
 
 input {
-    position: absolute;
-    left: 23%;
-    border-radius: 4px;
-    border: 2px solid rgba(0, 0, 0, 0.144);
-    margin: 10px;
-    height: 20px;
+  position: absolute;
+  left: 23%;
+  border-radius: 0.25rem;
+  border: 0.125rem  solid rgba(0, 0, 0, 0.144);
+  margin: 0.625rem;
+  height: 1.25rem;
 }
 
 .psw:hover {
-    color: rgb(126, 117, 117);
-    transition: 0.3s ease-out;
-    cursor: pointer;
+  color: rgb(126, 117, 117);
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
 
 .separator-line {
-    position: fixed;
-    margin-left: -0.5%;
-    top: 31%;
-    left: 43%;
-    width: 280px;
-    height: 1.3px;
-    background-color: grey;
+  position: fixed;
+  margin-left: -0.5%;
+  top: 31%;
+  left: 43%;
+  width: 17.5rem;
+  height: 0.081rem;
+  background-color: grey;
 }
 
 .separator-line2 {
-    position: fixed;
-    margin-left: -0.5%;
-    top: 69%;
-    left: 43%;
-    width: 280px;
-    height: 1.3px;
-    background-color: grey;
+  position: fixed;
+  margin-left: -0.5%;
+  top: 69%;
+  left: 43%;
+  width: 17.5rem;
+  height: 0.081;
+  background-color: grey;
 }
 
 .reg-text {
-    position: fixed;
-    bottom: 21%;
+  position: fixed;
+  bottom: 21%;
 }
 .register {
-    position: fixed;
-    right: 34%;
-    bottom: 18%
+  position: fixed;
+  right: 34%;
+  bottom: 18%;
 }
-
-/* .separator-line {
-    width: 300px;
-    height: 1px;
-    background-color: grey
-}
-
-.separator-line2 {
-    position: fixed;
-    top: 30.8%;
-    width: 300px;
-    height: 1px;
-    background-color: grey
-} */
-
-
-
-
